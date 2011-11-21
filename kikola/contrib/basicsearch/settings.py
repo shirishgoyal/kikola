@@ -3,7 +3,7 @@ from django.utils.translation import ugettext as _
 
 
 __all__ = ('SEARCH_FORM', 'SEARCH_MODELS', 'SEARCH_QUERY_MIN_LENGTH',
-           'SEARCH_QUERY_MAX_LENGTH', 'SEARCH_RESULTS_PER_PAGE')
+           'SEARCH_QUERY_MAX_LENGTH', 'SEARCH_RESULTS_PER_PAGE', 'SEARCH_NOT_FOUND_MESSAGE')
 
 
 # Full path to default ``SearchForm`` class
