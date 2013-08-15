@@ -67,6 +67,7 @@ class SearchForm(forms.Form):
             description_template = \
                 description and Template(description) or None
             title_template = title and Template(title) or None
+            link_template = link and Template(link) or None
 
             for obj in objects:
                 if trigger is not None and not trigger(obj):
